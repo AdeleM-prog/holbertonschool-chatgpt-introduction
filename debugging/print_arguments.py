@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-if __name__ == "__main__":
-    for arg in sys.argv:
-        print(arg)
+for i in range(1, len(sys.argv)):
+    print(sys.argv[i])
